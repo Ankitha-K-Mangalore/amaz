@@ -8,9 +8,15 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "build": "cd backend && npm install && ../frontend && npm install && npm run build"
+=======
+    "build": "cd backend && npm install && cd ../frontend && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> f45d8b94c481b0ed1651cdc0ff13681ec1d1828e
   },
   "repository": {
     "type": "git",
