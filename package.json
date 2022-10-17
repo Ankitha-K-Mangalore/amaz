@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "react-router-bootstrap": "^0.26.2"
+  },
+  "name": "amaz",
+  "description": "1. Indroduction\r 2. Tools Needed\r 3. Create React App\r 4. Create Git Rep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "build": "cd backend && npm install && ../frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankitha-K-Mangalore/amaz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankitha-K-Mangalore/amaz/issues"
+  },
+  "homepage": "https://github.com/Ankitha-K-Mangalore/amaz#readme"
+}
